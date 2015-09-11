@@ -8,7 +8,7 @@ body {
   background opacity: 0.4;
 }
 
-a:link {
+a {
   text-decoration: none;
   color: white;
   display: block;
