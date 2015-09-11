@@ -2,7 +2,15 @@ h1 {
   color: blue;
   font-size: 28;
 }
+
 body {
   background-image: url("http://www.pulsarwallpapers.com/data/media/3/Alien%20Ink%202560X1600%20Abstract%20Background.jpg");
   background opacity: 0.4;
+}
+
+a {
+  display: block;
+  height: 20px;
+  width: auto;
+  border: 1px solid;
 }
