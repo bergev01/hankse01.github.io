@@ -1,5 +1,11 @@
+table.TitleHead {
+    background:black;
+    background opacity: 9;
+    border-radius: 15px;
+}
+
 h1 {
-  color: black;
+  color: white;
   font-size: 65;
   font-style: comic; 
   border: white;
@@ -13,8 +19,7 @@ body {
 a.pageref {
   text-decoration: none;
   color: white;
-  display: block;
-  height: 20px;
+  height: auto;
   width: auto;
   background: black;
 }
