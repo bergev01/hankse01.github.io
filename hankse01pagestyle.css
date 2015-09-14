@@ -1,6 +1,7 @@
 table.TitleHead {
-    background-image:url(http://wallpaper-download.net/wallpapers/random-wallpapers-black-and-white-nature-wallpaper-33325.jpg);
-    background opacity: 9;
+    background-image: url("http://7-themes.com/data_images/out/21/6838259-gray-background.jpg");
+    background-position: 50;
+    background opacity: 90;
     border-radius: 15px;
 }
 
@@ -9,10 +10,16 @@ h1 {
   font-size: 65;
   font-style: comic; 
   border: white;
+  text-shadow:1px 2px black;
+}
+
+img.image {
+  border-color: black;
+  border-radius: 10px;
 }
 
 body {
-  background-image: url("http://images.forwallpaper.com/files/images/5/514b/514bd556/218979/texture-texture-background-wallpaper-kvadrtaty-cubes-gray-black-blue-blue-color.jpg");
+  background-image: url("http://7-themes.com/data_images/out/21/6838259-gray-background.jpg");
   background opacity: 0.4;
 }
 
@@ -21,7 +28,6 @@ a.pageref {
   color: white;
   height: auto;
   width: auto;
-  background: black;
 }
 a:selected {
   text-decoration: none;
@@ -47,4 +53,20 @@ td.sidebar {
     width: 200px;
     height: auto;
     margin: auto;
+}
+
+table.assignments {
+  background-image: url("http://7-themes.com/data_images/out/21/6838259-gray-background.jpg");
+  border-radius: 50px;
+}
+
+table.contactinfo {
+  background-image: url("http://7-themes.com/data_images/out/21/6838259-gray-background.jpg");
+  background-position: 60;
+}
+
+
+
+
+
   
