@@ -1,0 +1,40 @@
+body {
+  background-image: url("http://www.wallpaperup.com/uploads/wallpapers/2013/03/21/56337/big_thumb_d0688ec77d91bb9a7215456b76de140e.jpg");
+  font-size: 24;
+  background-repeat: no-repeat;
+  font-family: "Comic";
+  background-position: 45% 2.5%;
+  background-size: 150% 150%;
+}
+
+p.todoTitle {
+	font-size: 65;
+	font-family: "Comic";
+	background-color: black;
+	color: white;
+}
+
+li.Complete {
+	text-decoration: line-through;
+}
+
+li.In-Progress {
+	font-weight: bold;
+}
+
+li.Backlog {
+	font-style: italic;
+}
+
+li[priority="low"]{
+	background-color: gray;
+}
+
+li[priority="med"]{
+	background-color: orange;
+}
+
+li[priority="high"]{
+	background-color: red;
+	background-opacity: 90%;
+}
