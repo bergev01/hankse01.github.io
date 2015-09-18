@@ -32,7 +32,7 @@ p.todoTitle {
 section[priority="done"]{
 	text-decoration: line-through;
 	background-color: black;
-	color: white;
+	color: cyan;
 }
 
 section[priority="low"]{
@@ -42,7 +42,7 @@ section[priority="low"]{
 
 section[priority="med"]{
 	background-color: orange;
-	color: cyan;
+	color: white;
 }
 
 section[priority="high"]{
