@@ -4,34 +4,40 @@
 </head>
 <body><center>
 	<p class="todoTitle"> Do these items: <br></p>
-	<table>
+	<table cellspacing="10">
 	<tr>
-	<td></td>
-	<td>
-	<section><ul>
-		<li class="In-Progress" priority="high">This is being worked on.</li>
-		<li class="In-Progress" priority="med">Still working on this.</li>
-		<li class="In-Progress" priority="low">Also working on this.</li>
-		<br><br>
+	<td width="300">
+	<todohead>High Priority</todohead>
+	<section priority="high"><ul>
+		<li>Do Task A.</li>
+		<li>Do Task B.</li>
+		<li>Do Task C.</li>
 	</ul>	
 	</section>
-	
-	<section><ul>
-		<li class="Backlog" priority="high">Should probably start this.</li>
-		<li class="Backlog" priority="med">I might start this one too.</li>
-		<li class="Backlog" priority="low">Haven't begun this either.</li>
-		<br><br>
+	<todohead>Medium Priority</todohead>
+	<section priority="med"><ul>
+		<li>Do Task D.</li>
+		<li>Do Task E.</li>
+		<li>Do Task F.</li>
 	</ul>
+	</td>
+	<td width="300">
 	</section>
-	<section><ul>
-		<li class="Complete" priority="high">Completed this one!</li>
-		<li class="Complete" priority="med"> Completed this one as well!</li>
-		<li class="Complete" priority="low"> Also Completed!</li>
+	<todohead>Low Priority</todohead>
+	<section priority="low"><ul>
+		<li>Do Task G.</li>
+		<li>Do Task H.</li>
+		<li>Do Task I.</li>
 	</ul>	
 	</section>
-	
+	<todohead>Complete</todohead>
+	<section priority="done"> <ul>
+		<li>Do Task J.</li>
+		<li>Do Task K.</li>
+		<li>Do Task L.</li>
+	</ul>	
+	</section>
 	</td>
-	<td></td>
 	</tr>
 	</table>
 </center></body>
