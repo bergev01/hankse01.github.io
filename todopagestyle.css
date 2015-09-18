@@ -1,10 +1,25 @@
+html {
+	background-image: url("http://www.wallpaperup.com/uploads/wallpapers/2013/03/21/56337/big_thumb_d0688ec77d91bb9a7215456b76de140e.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: 45% 2.5%;
+  	background-size: 150% 150%;
+}
+
 body {
-  background-image: url("http://www.wallpaperup.com/uploads/wallpapers/2013/03/21/56337/big_thumb_d0688ec77d91bb9a7215456b76de140e.jpg");
   font-size: 24;
-  background-repeat: no-repeat;
+  
   font-family: "Comic";
-  background-position: 45% 2.5%;
-  background-size: 150% 150%;
+  
+
+}
+
+todohead {
+	font-size: 24;
+	color: white;
+	font-style: bold;
+	text-shadow:1px 2px black;
+	text-align: right;
 }
 
 p.todoTitle {
@@ -14,27 +29,24 @@ p.todoTitle {
 	color: white;
 }
 
-li.Complete {
+section[priority="done"]{
 	text-decoration: line-through;
+	background-color: black;
+	color: white;
 }
 
-li.In-Progress {
-	font-weight: bold;
-}
-
-li.Backlog {
-	font-style: italic;
-}
-
-li[priority="low"]{
+section[priority="low"]{
 	background-color: gray;
+	color: black;
 }
 
-li[priority="med"]{
+section[priority="med"]{
 	background-color: orange;
+	color: white;
 }
 
-li[priority="high"]{
+section[priority="high"]{
 	background-color: red;
+	color: white;
 	background-opacity: 90%;
 }
