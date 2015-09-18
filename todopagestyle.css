@@ -29,10 +29,20 @@ p.todoTitle {
 	color: white;
 }
 
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+section {
+	border-radius: 15px;
+	overflow: auto;
+	height: 100;
+}
 section[priority="done"]{
 	text-decoration: line-through;
 	background-color: black;
 	color: cyan;
+
 }
 
 section[priority="low"]{
