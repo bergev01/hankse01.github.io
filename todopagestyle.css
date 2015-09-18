@@ -42,7 +42,7 @@ section[priority="low"]{
 
 section[priority="med"]{
 	background-color: orange;
-	color: white;
+	color: cyan;
 }
 
 section[priority="high"]{
