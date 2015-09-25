@@ -1,0 +1,44 @@
+nav{
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 70px;
+  background-color: gray;
+  color: white;
+  text-shadow: 2px 2px black;
+  z-index: 1;
+}
+
+body {
+  background-color: black;
+}
+img {
+  width: 80%;
+  border-radius: 15px;
+}
+
+Section{
+  position: relative;
+  left: 0;
+  top: 70;
+  width: 48%;
+  height: 100%;
+  text-align: center;
+  border-width: 0;
+  margin: 1%;
+  border-radius: 15px;
+}
+
+
+Section.left {
+  
+  float: left;
+  background-color: red;
+}
+
+Section.right {
+  float: right;
+  background-color: blue;
+}
